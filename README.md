@@ -1,4 +1,4 @@
-# module_14_challenge
+# ML Model Comparison on Trading Bot Performance
 Step 1:<br>
 This challenge employs a predictive model to visualize cumulative returns of a security's actual returns against cumulative returns of a trading strategy that uses predicted trading signals. The trading strategy used an SVM model with the prior day's short SMA and long SMA as the features, and the current day's binary signal as the target (a value of 1 reflects positive returns (buy), and -1 reflects negative returns (sell). By analyzing one day's moving averages and the next day's actual returns on the training data, the model made predictions of the trading signal on the testing data. So, the trained model should analyze one day's simple moving averages and predict if the next day's returns are positive or negative. If the prediction is positive (buy) and the actual returns are positive, then the 'Strategy Returns' are positive (1 * positive number = positive number). If the prediction is negative (sell) and the actual returns are negative, then again the 'Strategy Returns are positive (-1 * negative number = positive number).
 
